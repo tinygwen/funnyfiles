@@ -1,5 +1,6 @@
 'use strict';
 /// youtube-more-speeds.user.js
+/// alias youtube-more-speeds
 // source: https://github.com/SharpRoma/youtube-more-speeds
     function waitForKeyElements(selectorOrFunction, callback, waitOnce = true, interval = 300, maxIntervals = -1) {
         let targetNodes = (typeof selectorOrFunction === "function")
