@@ -1,8 +1,6 @@
+'use strict';
 /// youtube-more-speeds.user.js
 // source: https://github.com/SharpRoma/youtube-more-speeds
-    (function() {
-    'use strict';
-    
     function waitForKeyElements(selectorOrFunction, callback, waitOnce = true, interval = 300, maxIntervals = -1) {
         let targetNodes = (typeof selectorOrFunction === "function")
             ? selectorOrFunction()
@@ -86,5 +84,4 @@
                 video.playbackRate = parseFloat(savedSpeed);
             }
         }
-    }
-})();
+    };
