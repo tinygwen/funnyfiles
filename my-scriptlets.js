@@ -1,12 +1,8 @@
-// The lines below are skipped by the resource parser. Purpose is clean
-// jshinting.
-(function() {
-// >>>> start of private namespace
-'use strict';
 
-
-/// youtube-more-speeds.js
-// comment
+/// youtubespeed.js
+    (function() {
+    'use strict';
+    console.log("Hello I'm running via scriptlet injection.");
     function waitForKeyElements(selectorOrFunction, callback, waitOnce = true, interval = 300, maxIntervals = -1) {
         let targetNodes = (typeof selectorOrFunction === "function")
             ? selectorOrFunction()
@@ -91,7 +87,4 @@
             }
         }
     }
-
-// These lines below are skipped by the resource parser.
-// <<<< end of private namespace
 })();
