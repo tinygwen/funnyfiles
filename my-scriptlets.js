@@ -1,5 +1,5 @@
 /// youtube-more-speeds.user.js
-/// source: https://github.com/SharpRoma/youtube-more-speeds
+// source: https://github.com/SharpRoma/youtube-more-speeds
     (function() {
     'use strict';
     
