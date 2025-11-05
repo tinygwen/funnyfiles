@@ -1,8 +1,7 @@
-
 /// youtubespeed.js
     (function() {
     'use strict';
-    console.log("Hello I'm running via scriptlet injection.");
+    console.log("hello i am running");
     function waitForKeyElements(selectorOrFunction, callback, waitOnce = true, interval = 300, maxIntervals = -1) {
         let targetNodes = (typeof selectorOrFunction === "function")
             ? selectorOrFunction()
